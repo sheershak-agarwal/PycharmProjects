@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Workspace>
+	<Workspace_Title/>
+	<Workspace_Vertion>1.8.1</Workspace_Vertion>
+	<Workspace_Date>2021/07/02 12:44:05</Workspace_Date>
+	<Project>RC1</Project>
+	<Display3D>
+		<RobotModelType>0</RobotModelType>
+	</Display3D>
+	<ScreenRect>
+		<Screen487>
+			<AdditionalInfo>0</AdditionalInfo>
+			<Left>3245</Left>
+			<Top>456</Top>
+			<Right>3714</Right>
+			<Bottom>934</Bottom>
+		</Screen487>
+		<Screen160>
+			<AdditionalInfo/>
+			<Left>662</Left>
+			<Top>281</Top>
+			<Right>1378</Right>
+			<Bottom>798</Bottom>
+		</Screen160>
+	</ScreenRect>
+	<LastLayoutSelect>Layout</LastLayoutSelect>
+</Workspace>

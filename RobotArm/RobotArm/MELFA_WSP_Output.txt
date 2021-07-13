@@ -1,0 +1,210 @@
+2021:07:06 20:59:08	:No syntax error.
+2021:07:08 09:36:34	:Syntax check Error
+	:Program	:1(Command:24)	:RC1	:Robot	:24 If P1<0 Then GoTo *LEND ' If DATA is negative, jump to line 7 and end	:Syntax error
+2021:07:08 09:36:45	:Syntax check Error
+	:Program	:1(Command:24)	:RC1	:Robot	:24 If P1<0 Then GoTo *LEND ' If DATA is negative, jump to line 7 and end	:Syntax error
+2021:07:08 09:37:11	:No syntax error.
+2021:07:08 09:40:54	:No syntax error.
+2021:07:08 13:34:06	:No syntax error.
+2021:07:08 13:41:46	:No syntax error.
+2021:07:08 14:11:43	:No syntax error.
+2021:07:08 17:52:06	:No syntax error.
+2021:07:09 18:20:03	:No syntax error.
+2021:07:09 18:23:27	:No syntax error.
+2021:07:09 18:25:09	:No syntax error.
+2021:07:09 18:25:45	:No syntax error.
+2021:07:09 19:09:58	:No syntax error.
+2021:07:09 19:10:06	:No syntax error.
+2021:07:09 20:26:06	:Syntax check Error
+	:Program	:1(Command:5)	:RC1	:Robot	:5 Input #1,CmdInt,PosInt, ' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:6)	:RC1	:Robot	:6 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:7)	:RC1	:Robot	:7 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:8)	:RC1	:Robot	:8 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:33)	:RC1	:Robot	:33 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:35)	:RC1	:Robot	:35 Input #1,P100(1),P100(2),P100(3),P100(1),P100(1),P100(1),P100(1),P8' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:45)	:RC1	:Robot	:45 Select PosInt	:Syntax error
+	:Program	:1(Command:52)	:RC1	:Robot	:52 Mvs P100(M1)   	:Syntax error
+	:Program	:1(Command:56)	:RC1	:Robot	:56 Print #1,"Move Complete= P100(0-9)";P100(M1) ' Reply DATA = print p1-p8 position values	:Syntax error
+	:Program	:1(Command:66)	:RC1	:Robot	:66 Mvs P101(M1)   	:Syntax error
+	:Program	:1(Command:70)	:RC1	:Robot	:70 Print #1,"Move Complete= P101(0-9)";P101(M1) ' Reply DATA = print p1-p8 position values	:Syntax error
+	:Program	:1(Command:80)	:RC1	:Robot	:80 Mvs P102(M1)   	:Syntax error
+	:Program	:1(Command:84)	:RC1	:Robot	:84 Print #1,"Move Complete= P102(0-9)";P100(M1) ' Reply DATA = print p1-p8 position values	:Syntax error
+2021:07:09 20:26:54	:Syntax check Error
+	:Program	:1(Command:5)	:RC1	:Robot	:5 Input #1,CmdInt,PosInt, ' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:6)	:RC1	:Robot	:6 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:7)	:RC1	:Robot	:7 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:8)	:RC1	:Robot	:8 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:33)	:RC1	:Robot	:33 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:35)	:RC1	:Robot	:35 Input #1,P100(1),P100(2),P100(3),P100(1),P100(1),P100(1),P100(1),P8' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:45)	:RC1	:Robot	:45 Select PosInt	:Syntax error
+	:Program	:1(Command:52)	:RC1	:Robot	:52 Mvs P100(M1)   	:Syntax error
+	:Program	:1(Command:56)	:RC1	:Robot	:56 Print #1,"Move Complete= P100(0-9)";P100(9) ' Reply DATA = print p1-p8 position values	:Syntax error
+	:Program	:1(Command:66)	:RC1	:Robot	:66 Mvs P101(M1)   	:Syntax error
+	:Program	:1(Command:70)	:RC1	:Robot	:70 Print #1,"Move Complete= P101(0-9)";P101(9) ' Reply DATA = print p1-p8 position values	:Syntax error
+	:Program	:1(Command:80)	:RC1	:Robot	:80 Mvs P102(M1)   	:Syntax error
+	:Program	:1(Command:84)	:RC1	:Robot	:84 Print #1,"Move Complete= P102(0-9)";P102(9) ' Reply DATA = print p1-p8 position values	:Syntax error
+2021:07:09 20:29:48	:Syntax check Error
+	:Program	:1(Command:5)	:RC1	:Robot	:5 Input #1,CmdInt,PosInt, ' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:6)	:RC1	:Robot	:6 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:7)	:RC1	:Robot	:7 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:8)	:RC1	:Robot	:8 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:33)	:RC1	:Robot	:33 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:35)	:RC1	:Robot	:35 Input #1,P100(1),P100(2),P100(3),P100(1),P100(1),P100(1),P100(1),P8' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:45)	:RC1	:Robot	:45 Select PosInt	:Syntax error
+	:Program	:1(Command:52)	:RC1	:Robot	:52 Mvs P100(M1)   	:Syntax error
+	:Program	:1(Command:56)	:RC1	:Robot	:56 Print #1,"Move Complete= P100(0-9)",P100(9) ' Reply DATA = print p1-p8 position values	:Syntax error
+	:Program	:1(Command:66)	:RC1	:Robot	:66 Mvs P101(M1)   	:Syntax error
+	:Program	:1(Command:70)	:RC1	:Robot	:70 Print #1,"Move Complete= P101(0-9)",P101(9) ' Reply DATA = print p1-p8 position values	:Syntax error
+	:Program	:1(Command:80)	:RC1	:Robot	:80 Mvs P102(M1)   	:Syntax error
+	:Program	:1(Command:84)	:RC1	:Robot	:84 Print #1,"Move Complete= P102(0-9)",P102(9) ' Reply DATA = print p1-p8 position values	:Syntax error
+2021:07:09 20:30:20	:Syntax check Error
+	:Program	:1(Command:5)	:RC1	:Robot	:5 Input #1,CmdInt,PosInt, ' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:6)	:RC1	:Robot	:6 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:7)	:RC1	:Robot	:7 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:8)	:RC1	:Robot	:8 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:33)	:RC1	:Robot	:33 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:35)	:RC1	:Robot	:35 Input #1,P100(1),P100(2),P100(3),P100(1),P100(1),P100(1),P100(1),P8' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:45)	:RC1	:Robot	:45 Select PosInt	:Syntax error
+	:Program	:1(Command:52)	:RC1	:Robot	:52 Mvs P100(M1)   	:Syntax error
+	:Program	:1(Command:66)	:RC1	:Robot	:66 Mvs P101(M1)   	:Syntax error
+	:Program	:1(Command:80)	:RC1	:Robot	:80 Mvs P102(M1)   	:Syntax error
+2021:07:09 20:33:57	:Syntax check Error
+	:Program	:1(Command:5)	:RC1	:Robot	:5 Input #1,CmdInt,PosInt, ' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:6)	:RC1	:Robot	:6 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:7)	:RC1	:Robot	:7 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:8)	:RC1	:Robot	:8 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:33)	:RC1	:Robot	:33 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:45)	:RC1	:Robot	:45 Select PosInt	:Syntax error
+2021:07:09 20:39:02	:Syntax check Error
+	:Program	:1(Command:1)	:RC1	:Robot	:1 Def CmdInt	:Syntax error
+	:Program	:1(Command:2)	:RC1	:Robot	:2 Def PosInt	:Syntax error
+	:Program	:1(Command:8)	:RC1	:Robot	:8 Input #1,CmdInt,PosInt, ' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:10)	:RC1	:Robot	:10 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:11)	:RC1	:Robot	:11 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:12)	:RC1	:Robot	:12 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:36)	:RC1	:Robot	:36 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:48)	:RC1	:Robot	:48 Select PosInt	:Syntax error
+2021:07:09 20:40:32	:Syntax check Error
+	:Program	:1(Command:8)	:RC1	:Robot	:8 Input #1,CmdInt,PosInt, ' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:10)	:RC1	:Robot	:10 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:11)	:RC1	:Robot	:11 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:12)	:RC1	:Robot	:12 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+2021:07:09 20:43:44	:Syntax check Error
+	:Program	:1(Command:1)	:RC1	:Robot	:1 Def IO CmdInt=Word(16bit)	:Syntax error
+	:Program	:1(Command:2)	:RC1	:Robot	:2 Def IO PosInt=Word(16bit)	:Syntax error
+	:Program	:1(Command:8)	:RC1	:Robot	:8 Input #1,CmdInt,PosInt, ' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:10)	:RC1	:Robot	:10 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:11)	:RC1	:Robot	:11 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:12)	:RC1	:Robot	:12 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:36)	:RC1	:Robot	:36 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:48)	:RC1	:Robot	:48 Select PosInt	:Syntax error
+2021:07:09 20:44:22	:Syntax check Error
+	:Program	:1(Command:1)	:RC1	:Robot	:1 Def IO CmdInt=Word(16bit)=M100	:Syntax error
+	:Program	:1(Command:2)	:RC1	:Robot	:2 Def IO PosInt=Word(16bit)=M200	:Syntax error
+	:Program	:1(Command:8)	:RC1	:Robot	:8 Input #1,CmdInt,PosInt, ' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:10)	:RC1	:Robot	:10 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:11)	:RC1	:Robot	:11 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:12)	:RC1	:Robot	:12 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:36)	:RC1	:Robot	:36 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:48)	:RC1	:Robot	:48 Select PosInt	:Syntax error
+2021:07:09 20:45:17	:Syntax check Error
+	:Program	:1(Command:1)	:RC1	:Robot	:1 Def IO CmdInt=Word(16bit)=M_inW(1)	:Syntax error
+	:Program	:1(Command:2)	:RC1	:Robot	:2 Def IO PosInt=Word(16bit)=M_inW(2)	:Syntax error
+	:Program	:1(Command:8)	:RC1	:Robot	:8 Input #1,CmdInt,PosInt, ' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:10)	:RC1	:Robot	:10 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:11)	:RC1	:Robot	:11 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:12)	:RC1	:Robot	:12 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:36)	:RC1	:Robot	:36 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:48)	:RC1	:Robot	:48 Select PosInt	:Syntax error
+2021:07:09 20:47:45	:Syntax check Error
+	:Program	:1(Command:1)	:RC1	:Robot	:1 Def IO CmdInt = Word(16bit)=M_Inw,1	:Syntax error
+	:Program	:1(Command:2)	:RC1	:Robot	:2 Def IO PosInt = Word(16bit)=M_Inw,2	:Syntax error
+	:Program	:1(Command:8)	:RC1	:Robot	:8 Input #1,CmdInt,PosInt, ' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:10)	:RC1	:Robot	:10 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:11)	:RC1	:Robot	:11 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:12)	:RC1	:Robot	:12 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:36)	:RC1	:Robot	:36 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:48)	:RC1	:Robot	:48 Select PosInt	:Syntax error
+2021:07:09 20:48:54	:Syntax check Error
+	:Program	:1(Command:5)	:RC1	:Robot	:5 Input #1,DATA,M11, ' Wait for reception of value in DATA variable	:Syntax error
+	:Program	:1(Command:6)	:RC1	:Robot	:6 If DATA,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:7)	:RC1	:Robot	:7 If DATA,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:8)	:RC1	:Robot	:8 If DATA,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If DATA,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:33)	:RC1	:Robot	:33 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:45)	:RC1	:Robot	:45 Select PosInt	:Syntax error
+2021:07:09 20:51:20	:Syntax check Error
+	:Program	:1(Command:1)	:RC1	:Robot	:1 CmdInt=M10	:Syntax error
+	:Program	:1(Command:2)	:RC1	:Robot	:2 PosInt=M11	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:10)	:RC1	:Robot	:10 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:11)	:RC1	:Robot	:11 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:12)	:RC1	:Robot	:12 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:36)	:RC1	:Robot	:36 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:48)	:RC1	:Robot	:48 Select PosInt	:Syntax error
+2021:07:09 20:51:39	:Syntax check Error
+	:Program	:1(Command:1)	:RC1	:Robot	:1 CmdInt=M10	:Syntax error
+	:Program	:1(Command:2)	:RC1	:Robot	:2 PosInt=M11	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:10)	:RC1	:Robot	:10 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:11)	:RC1	:Robot	:11 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:12)	:RC1	:Robot	:12 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:36)	:RC1	:Robot	:36 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:48)	:RC1	:Robot	:48 Select PosInt	:Syntax error
+2021:07:09 20:51:47	:Syntax check Error
+	:Program	:1(Command:1)	:RC1	:Robot	:1 CmdInt=M10	:Syntax error
+	:Program	:1(Command:2)	:RC1	:Robot	:2 PosInt=M11	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:10)	:RC1	:Robot	:10 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:11)	:RC1	:Robot	:11 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:12)	:RC1	:Robot	:12 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:36)	:RC1	:Robot	:36 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:48)	:RC1	:Robot	:48 Select PosInt	:Syntax error
+2021:07:09 20:51:54	:Syntax check Error
+	:Program	:1(Command:1)	:RC1	:Robot	:1 CmdInt=M10	:Syntax error
+	:Program	:1(Command:2)	:RC1	:Robot	:2 PosInt=M11	:Syntax error
+	:Program	:1(Command:9)	:RC1	:Robot	:9 If CmdInt,=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:10)	:RC1	:Robot	:10 If CmdInt,=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:11)	:RC1	:Robot	:11 If CmdInt,=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:12)	:RC1	:Robot	:12 If CmdInt,=50 Then GoSub *RunMotion	:Syntax error
+	:Program	:1(Command:36)	:RC1	:Robot	:36 If PosInt = 100 Then	:Syntax error
+	:Program	:1(Command:48)	:RC1	:Robot	:48 Select PosInt	:Syntax error
+2021:07:09 20:55:48	:Syntax check Error
+	:Program	:1(Command:3)	:RC1	:Robot	:3 CmdInt = M_Inb(10096)	:Syntax error
+	:Program	:1(Command:4)	:RC1	:Robot	:4 PosInt = M_Inb(10160)	:Syntax error
+	:Program	:1(Command:14)	:RC1	:Robot	:14 If CmdInt=20 Then GoSub *ServoOn'	:Syntax error
+	:Program	:1(Command:15)	:RC1	:Robot	:15 If CmdInt=30 Then GoSub *ServoOff '	:Syntax error
+	:Program	:1(Command:16)	:RC1	:Robot	:16 If CmdInt=40 Then GoSub *LoadNextPositions  'This needs to be moved to Slot 2 so can load next positions while runmotion is going.	:Syntax error
+	:Program	:1(Command:17)	:RC1	:Robot	:17 If CmdInt=50 Then GoSub *RunMotion	:Syntax error
+2021:07:09 20:58:12	:No syntax error.
+2021:07:09 20:58:22	:No syntax error.
+2021:07:09 20:58:35	:Syntax check Error
+	:Program	:1(Command:5)	:RC1	:Robot	:5 Input #1,DATA,POS ' Wait for reception of value in DATA variable	:Syntax error
+2021:07:09 20:58:44	:No syntax error.
+2021:07:09 21:13:10	:No syntax error.
+2021:07:09 21:17:27	:Syntax check Error
+	:Program	:1(Command:75)	:RC1	:Robot	:75 End Select	:Nesting over
+2021:07:09 21:17:41	:No syntax error.
+2021:07:09 21:22:23	:Syntax check Error
+	:Program	:1(Command:70)	:RC1	:Robot	:70 Mvs P100(M1)	:Syntax error
+2021:07:09 21:22:36	:No syntax error.
+2021:07:09 21:23:03	:No syntax error.
+2021:07:09 21:23:41	:No syntax error.
+2021:07:09 21:25:04	:No syntax error.
+2021:07:09 21:26:16	:No syntax error.
+2021:07:09 21:32:10	:No syntax error.
+2021:07:09 21:45:46	:No syntax error.
+2021:07:09 22:07:58	:No syntax error.
+2021:07:09 22:15:22	:No syntax error.
+2021:07:13 15:45:36	:No syntax error.
