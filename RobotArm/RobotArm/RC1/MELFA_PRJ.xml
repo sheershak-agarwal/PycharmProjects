@@ -13,7 +13,7 @@
 			<Retry>3</Retry>
 		</RS-232>
 		<TCPIP>
-			<Adress>192.168.3.11</Adress>
+			<Adress>192.168.3.20</Adress>
 			<Port>10001</Port>
 			<SendTimeout>5000</SendTimeout>
 			<RecvTimeout>30000</RecvTimeout>
@@ -42,17 +42,17 @@
 		</Screen2722>
 		<Screen490>
 			<AdditionalInfo/>
-			<Left>4747</Left>
-			<Top>44</Top>
-			<Right>5060</Right>
-			<Bottom>609</Bottom>
+			<Left>3222</Left>
+			<Top>164</Top>
+			<Right>3535</Right>
+			<Bottom>477</Bottom>
 		</Screen490>
 		<Screen392>
 			<AdditionalInfo>1</AdditionalInfo>
-			<Left>49</Left>
-			<Top>24</Top>
-			<Right>824</Right>
-			<Bottom>798</Bottom>
+			<Left>-5</Left>
+			<Top>25</Top>
+			<Right>1127</Right>
+			<Bottom>799</Bottom>
 		</Screen392>
 		<Screen2723>
 			<AdditionalInfo>2</AdditionalInfo>
@@ -63,17 +63,17 @@
 		</Screen2723>
 		<Screen230>
 			<AdditionalInfo/>
-			<Left>102</Left>
-			<Top>345</Top>
-			<Right>741</Right>
-			<Bottom>751</Bottom>
+			<Left>131</Left>
+			<Top>196</Top>
+			<Right>770</Right>
+			<Bottom>602</Bottom>
 		</Screen230>
 		<Screen225>
 			<AdditionalInfo>1</AdditionalInfo>
-			<Left>9</Left>
-			<Top>8</Top>
-			<Right>1349</Right>
-			<Bottom>625</Bottom>
+			<Left>2</Left>
+			<Top>-1</Top>
+			<Right>1342</Right>
+			<Bottom>616</Bottom>
 		</Screen225>
 		<Screen142>
 			<AdditionalInfo/>
@@ -145,6 +145,48 @@
 			<Right>796</Right>
 			<Bottom>556</Bottom>
 		</Screen392>
+		<Screen2721>
+			<AdditionalInfo>1</AdditionalInfo>
+			<Left>130</Left>
+			<Top>130</Top>
+			<Right>797</Right>
+			<Bottom>490</Bottom>
+		</Screen2721>
+		<Screen2722>
+			<AdditionalInfo>1</AdditionalInfo>
+			<Left>78</Left>
+			<Top>78</Top>
+			<Right>745</Right>
+			<Bottom>438</Bottom>
+		</Screen2722>
+		<Screen2723>
+			<AdditionalInfo>1</AdditionalInfo>
+			<Left>238</Left>
+			<Top>196</Top>
+			<Right>1161</Right>
+			<Bottom>641</Bottom>
+		</Screen2723>
+		<Screen279>
+			<AdditionalInfo>1</AdditionalInfo>
+			<Left>182</Left>
+			<Top>182</Top>
+			<Right>576</Right>
+			<Bottom>488</Bottom>
+		</Screen279>
+		<Screen392>
+			<AdditionalInfo>1.prg</AdditionalInfo>
+			<Left>0</Left>
+			<Top>0</Top>
+			<Right>640</Right>
+			<Bottom>400</Bottom>
+		</Screen392>
+		<Screen2796>
+			<AdditionalInfo>1</AdditionalInfo>
+			<Left>78</Left>
+			<Top>78</Top>
+			<Right>717</Right>
+			<Bottom>437</Bottom>
+		</Screen2796>
 	</ScreenRect>
 	<ProjComment/>
 	<RCtype>5</RCtype>
@@ -174,5 +216,5 @@
 	<Travel_width2>800.000</Travel_width2>
 	<Travel_high2>300.000</Travel_high2>
 	<Travel_pitch2>0.000</Travel_pitch2>
-	<Connect>4</Connect>
+	<Connect>1</Connect>
 </Project>
