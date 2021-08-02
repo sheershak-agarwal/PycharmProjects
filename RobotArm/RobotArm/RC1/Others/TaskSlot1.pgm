@@ -1,7 +1,7 @@
 Watch data file;Display Format;2;Signal Checkbox;1;Input Signal Start;0;Output Signal Start;0;Register Checkbox;0;Input Register Start;6000;Output Register Start;6000
 M1;Float;
 M100;Float;
-DATA;Float;+10
+DATA;Float;
 DATA1;Float;
 P1;Position;(+483.20,+39.23,+527.30,-180.00,+0.00,+180.00)(7,0)
 PHome;Position;(+483.21,+39.25,+527.29,-180.00,+0.00,+179.99)(7,0)

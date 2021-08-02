@@ -6,6 +6,7 @@
 	<Project>RC1</Project>
 	<Display3D>
 		<RobotModelType>0</RobotModelType>
+		<ZoomType>2</ZoomType>
 	</Display3D>
 	<ScreenRect>
 		<Screen487>
