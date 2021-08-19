@@ -42,10 +42,10 @@
 		</Screen2722>
 		<Screen490>
 			<AdditionalInfo/>
-			<Left>2843</Left>
-			<Top>425</Top>
-			<Right>3156</Right>
-			<Bottom>990</Bottom>
+			<Left>804</Left>
+			<Top>347</Top>
+			<Right>1117</Right>
+			<Bottom>912</Bottom>
 		</Screen490>
 		<Screen392>
 			<AdditionalInfo>1</AdditionalInfo>
@@ -70,10 +70,10 @@
 		</Screen230>
 		<Screen225>
 			<AdditionalInfo>1</AdditionalInfo>
-			<Left>-189</Left>
-			<Top>89</Top>
-			<Right>1151</Right>
-			<Bottom>706</Bottom>
+			<Left>-3</Left>
+			<Top>-7</Top>
+			<Right>611</Right>
+			<Bottom>518</Bottom>
 		</Screen225>
 		<Screen142>
 			<AdditionalInfo/>
@@ -133,10 +133,10 @@
 		</Screen227>
 		<Screen225>
 			<AdditionalInfo>2</AdditionalInfo>
-			<Left>-2</Left>
-			<Top>5</Top>
-			<Right>390</Right>
-			<Bottom>411</Bottom>
+			<Left>11</Left>
+			<Top>473</Top>
+			<Right>403</Right>
+			<Bottom>879</Bottom>
 		</Screen225>
 		<Screen392>
 			<AdditionalInfo>11</AdditionalInfo>
@@ -189,10 +189,10 @@
 		</Screen2796>
 		<Screen276>
 			<AdditionalInfo>1</AdditionalInfo>
-			<Left>996</Left>
-			<Top>-15</Top>
-			<Right>1628</Right>
-			<Bottom>354</Bottom>
+			<Left>669</Left>
+			<Top>-9</Top>
+			<Right>1301</Right>
+			<Bottom>360</Bottom>
 		</Screen276>
 		<Screen300>
 			<AdditionalInfo/>
@@ -201,6 +201,13 @@
 			<Right>574</Right>
 			<Bottom>800</Bottom>
 		</Screen300>
+		<Screen2076>
+			<AdditionalInfo>1</AdditionalInfo>
+			<Left>41</Left>
+			<Top>17</Top>
+			<Right>645</Right>
+			<Bottom>682</Bottom>
+		</Screen2076>
 	</ScreenRect>
 	<ProjComment/>
 	<RCtype>5</RCtype>

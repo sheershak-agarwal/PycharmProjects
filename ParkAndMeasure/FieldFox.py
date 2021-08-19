@@ -13,7 +13,7 @@ class FieldFox:
         self.stopFreq = stop
         self.ip = ip
         self.ll = []
-        rm = visa.ResourceManager('@py')
+        rm = visa.ResourceManager()
         self.myFieldFox = rm.open_resource(self.ip)
         self.myFieldFox.timeout = 10000
         self.myFieldFox.write("*RST")
@@ -50,12 +50,12 @@ class FieldFox:
         return stimulusArray
 
     def create_array(self):
-        time.sleep(1)
+        time.sleep(.1)
         self.myFieldFox.write("CALC:DATA:FDATa?")
         # time.sleep(.5)
         ff_SA_Amplitude_Data = self.myFieldFox.read()
         ff_SA_Amplitude_Data_Array = ff_SA_Amplitude_Data.split(",")
-        print("ff_SA_Amplitude_Data_Array", ff_SA_Amplitude_Data_Array)
+        print("Data_Array", ff_SA_Amplitude_Data_Array)
         return ff_SA_Amplitude_Data_Array
 
 
@@ -89,7 +89,7 @@ class FieldFox:
 
         # Use split to turn long string to an array of values
         ff_SA_Amplitude_Data_Array = ff_SA_Amplitude_Data.split(",")
-        print("ff_SA_Amplitude_Data_Array", ff_SA_Amplitude_Data_Array)
+        print("Data_Array", ff_SA_Amplitude_Data_Array)
 
 
         # # self.myFieldFox.write("CALC:FORMat PHAS")
@@ -111,7 +111,7 @@ class FieldFox:
         self.ll.append(row)
         # self.myFieldFox.write("INIT:CONT ON")
 
-    def create_file(self, board):
+    def create_file(self, board, path=None):
         columns = []
         for i in range(self.numPoints):
             columns.append('Frequency_' + str(i + 1))
@@ -120,11 +120,14 @@ class FieldFox:
 
         df = pd.DataFrame(self.ll, columns=columns)
         # print(df)
-        df.to_csv(board + '_' + datetime.datetime.now().strftime("%d_%m_%y_%I_%M_%S_%p_") + '_FSW_Data.csv', sep=',')
+        if path:
+            df.to_csv(path + '\\' + board + '_' + datetime.datetime.now().strftime("%d_%m_%y_%I_%M_%S_%p_") + '_FSW_Data.csv', sep=',')
+        else:
+            df.to_csv(board + '_' + datetime.datetime.now().strftime("%d_%m_%y_%I_%M_%S_%p_") + '_FSW_Data.csv', sep = ',')
         print(board + '_' + datetime.datetime.now().strftime("%d_%m_%y_%I_%M_%S_%p_") + 'FSW_Data.csv file created')
         self.ll = []
 
-    def create_file_optimized(self, board, freq_arr, amp_mat, phase_mat):
+    def create_file_optimized(self, board, freq_arr, amp_mat, phase_mat, path):
         columns = []
         for i in range(self.numPoints):
             columns.append('Frequency_' + str(i + 1))
@@ -133,7 +136,23 @@ class FieldFox:
 
         for i in range(len(amp_mat)):
             self.create_row(freq_arr, amp_mat[i], phase_mat[i])
-        self.create_file(board)
+        self.create_file(board, path)
+
+    def create_file_optimized_scan(self, board, freq_arr, amp_mat, phase_mat, path, k):
+        columns = []
+        for i in range(self.numPoints):
+            columns.append('Frequency_' + str(i + 1))
+            columns.append('Amplitude_' + str(i + 1))
+            columns.append('Phase_' + str(i + 1))
+
+        for i in range(len(amp_mat)):
+            self.create_row(freq_arr, amp_mat[i], phase_mat[i])
+        if k == 0:
+            self.create_file(board + '_ex', path)
+        elif k == 1:
+            self.create_file(board + '_ey', path)
+        else:
+            self.create_file(board, path)
     # def __del__(self):
     #     self.myFieldFox.clear()
     #     self.myFieldFox.close()

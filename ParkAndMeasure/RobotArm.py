@@ -66,7 +66,7 @@ class RobotArm:
         print('Received', repr(data))
 
         time.sleep(2)
-        self.config_s.connect((ROBOT_HOST, CONFIG_PORT))
+        #self.config_s.connect((ROBOT_HOST, CONFIG_PORT))
         self.config_s.sendall(b'1;1;RSTALRM')
         data1 = self.config_s.recv(1024)
         self.config_s.sendall(b'1;2;RSTALRM')
@@ -81,6 +81,18 @@ class RobotArm:
         self.pos_s.sendall(pos)
         data = self.pos_s.recv(1024)
         print('Received', repr(data))
+
+    def change_speed(self, speed='slow'):
+        self.config_s.sendall(b'1;1;CNTLON')
+        data1 = self.config_s.recv(1024)
+        if speed == "slow":
+            self.config_s.sendall(b'1;1;OVRD=10')
+            data = self.config_s.recv(1024)
+        else:
+            self.config_s.sendall(b'1;1;OVRD=100')
+            data = self.config_s.recv(1024)
+        print('Received ServoOn:', repr(data))
+
 
 
 # ra = RobotArm()

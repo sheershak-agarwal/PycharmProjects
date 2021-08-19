@@ -67,12 +67,13 @@ def turn_off_robot():
     print('Received ServoOff:', repr(data), repr(data1), repr(data2), repr(data3))
 
 
-pos_x = 657.0
-pos_y = -39.0
+pos_x = 663.0
+pos_y = -176.0
 pos_z = 550.0
 pos_a = 180.0
 pos_b = 0.0
 pos_c = 150.0
+# [664.05, -38.18, 550.0, 180.0, 0.0, 150.0]
 switch = False
 
 
